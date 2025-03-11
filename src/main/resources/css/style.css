@@ -1,0 +1,81 @@
+.header {
+    -fx-background-color: #2196F3;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 5, 0.0, 0, 2);
+}
+
+.button {
+    -fx-background-color: #1f56fb;  /* Azul */
+    -fx-text-fill: white;           /* Texto en blanco */
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 10;      /* Bordes redondeados */
+    -fx-border-radius: 10;
+    -fx-max-width: 100px;
+}
+
+.button:hover {
+    -fx-background-color: #0056b3;  /* Azul más oscuro al pasar el cursor */
+    -fx-cursor: hand;               /* Cambia el cursor a mano */
+}
+
+.button:pressed {
+    -fx-background-color: #003f7f;  /* Azul aún más oscuro cuando se presiona */
+}
+
+
+#paneGroup {
+    -fx-border-color: #aa2121;
+}
+
+.label {
+    -fx-font-weight: bold;
+}
+
+#paneBordePantallaTexto {
+    -fx-border-color: #504d4d;
+}
+
+/* ComboBoxes */
+.combo-box {
+    -fx-font-family: "Segoe UI", sans-serif;
+    -fx-font-size: 14px;
+    -fx-background-color: #ffffff;
+    -fx-border-color: #cccccc;
+    -fx-border-width: 1px;
+    -fx-border-radius: 4px;
+    -fx-padding: 4px;
+}
+
+/* TableViews */
+.table-view {
+    -fx-font-family: "Segoe UI", sans-serif;
+    -fx-font-size: 14px;
+    -fx-background-color: #ffffff;
+    -fx-border-color: #cccccc;
+    -fx-border-width: 1px;
+    -fx-border-radius: 4px;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #f2f2f2;
+}
+
+.table-view .table-cell {
+    -fx-border-color: #dddddd;
+    -fx-border-width: 0 0 1px 1px;
+    -fx-padding: 4px;
+}
+
+/*Colores estados de sillas */
+
+#estado_nodisponible {
+    -fx-background-color: #F44336;
+}
+
+#estado_disponible {
+    -fx-background-color: #4CAF50;
+}
+
+#preferencial {
+    -fx-background-color: #FFC107;
+}
