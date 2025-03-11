@@ -61,6 +61,16 @@ public class VentasController {
     //Botones FXML
     @FXML
     void confirmarCompra(ActionEvent event) {
+
+        if (sillasSeleccionadas.isEmpty()) {
+            Alert alert = new Alert(Alert.AlertType.WARNING);
+            alert.setTitle("Advertencia");
+            alert.setHeaderText(null);
+            alert.setContentText("No ha seleccionado ninguna silla.");
+            alert.showAndWait();
+            return;
+        }
+
         HorarioSala funcion = cbFuncion.getValue();
         if (funcion != null) {
             List<String> sillasCompradas = sillasSeleccionadas.stream()
