@@ -11,8 +11,17 @@ Este proyecto es una aplicación de escritorio que permite:
 - **Venta de entradas**: selección interactiva de asientos en grillas por sala, cálculo dinámico de precios (general, preferencial y 3D) y emisión de factura. [VentasController.java](https://github.com/LinkDevArch/CinemaProyect1/blob/master/src/main/java/controller/VentasController.java), [CalcularPrecios.java](https://github.com/LinkDevArch/CinemaProyect1/blob/master/src/main/java/model/CalcularPrecios.java)
 
 ## 📸 Capturas
+### Menu del programa botones (Agregar, Asignar, Comprar, Salir) respectivamente
+![image](https://github.com/user-attachments/assets/5dd5f9e8-e2a4-4f2e-919c-494d61c0cce3)
 
+### Menu de agregación de peliculas
+![image](https://github.com/user-attachments/assets/614b0357-1e9c-4f82-8621-1c473194b197)
 
+### Menu de Asignación de funciones
+![image](https://github.com/user-attachments/assets/03aa7da5-8ff5-40f9-a816-a82f1819c3ce)
+
+### Menu de compra
+![image](https://github.com/user-attachments/assets/f0c6943d-f596-4d92-9118-089fe7bfc612)
 
 ## 🛠️ Tecnologías utilizadas
 
