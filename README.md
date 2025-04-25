@@ -53,7 +53,7 @@ src/
 └─ test/
 ```
 
-##⚙️ Requisitos de ejecución
+## ⚙️ Requisitos de ejecución
 Antes de ejecutar el proyecto, asegúrate de tener instalado lo siguiente:
 
 - Java Development Kit (JDK) 11 o superior
@@ -66,7 +66,7 @@ java -version
 mvn -v
 ```
 
-##🚀 Instalación y ejecución
+## 🚀 Instalación y ejecución
 Sigue estos pasos para correr el proyecto localmente:
 1. Clona el repositorio:
    ```plaintext
@@ -81,13 +81,13 @@ Sigue estos pasos para correr el proyecto localmente:
    mvn clean javafx:run
    ```
    
-##🎮 Uso
+## 🎮 Uso
 - Agregar: Oprime el primer boton para agregar peliculas.
 - Asignar: Asocia películas a salas en horarios disponibles.
 - Ventas: Elige una función, selecciona asientos y finaliza la compra con una factura.
 - El sistema aplica restricciones como evitar funciones duplicadas o que una sala incompatible tenga una película no 3D.
 
-##📄 Licencia
+## 📄 Licencia
 ```plaintext
 Free
 ```
