@@ -18,8 +18,8 @@ Este proyecto es una aplicación de escritorio que permite:
 
 ## 🛠️ Tecnologías utilizadas
 
-- **Java 11**
-- **JavaFX 23**
+- **Java 22**
+- **JavaFX 23** (FXML + CSS)
 - **FXML** + **CSS**
 - **Maven**
 - **Arquitectura MVC**:
@@ -53,3 +53,39 @@ src/
 │      ├─ css/
 │      └─ img/
 └─ test/
+```
+##⚙️ Requisitos de ejecución
+Antes de ejecutar el proyecto, asegúrate de tener instalado lo siguiente:
+
+- Java Development Kit (JDK) 11 o superior
+- Apache Maven
+- Un IDE compatible con Java (Preferiblemente IntelliJ)
+
+Puedes verificar si tienes Java y Maven instalados ejecutando:
+```plaintext
+java -version
+mvn -v
+```
+##🚀 Instalación y ejecución
+Sigue estos pasos para correr el proyecto localmente:
+1. Clona el repositorio:
+   ```plaintext
+   git clone https://github.com/LinkDevArch/CinemaProyect1.git
+   ```
+2. Accede al directorio del proyecto:
+   ```plaintext
+   cd CinemaProyect1
+   ```
+3. Ejecuta la aplicación usando Maven:
+   ```plaintext
+   mvn clean javafx:run
+   ```
+##🎮 Uso
+- Agregar: Oprime el primer boton para agregar peliculas.
+- Asignar: Asocia películas a salas en horarios disponibles.
+- Ventas: Elige una función, selecciona asientos y finaliza la compra con una factura.
+- El sistema aplica restricciones como evitar funciones duplicadas o que una sala incompatible tenga una película no 3D.
+##📄 Licencia
+```plaintext
+Free
+```
