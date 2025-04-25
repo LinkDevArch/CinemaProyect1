@@ -12,9 +12,7 @@ Este proyecto es una aplicación de escritorio que permite:
 
 ## 📸 Capturas
 
-> *Aquí puedes añadir capturas de pantalla de la aplicación*  
-> Ejemplo:  
-> `![Gameplay](screenshots/gameplay.png)`
+
 
 ## 🛠️ Tecnologías utilizadas
 
@@ -54,6 +52,7 @@ src/
 │      └─ img/
 └─ test/
 ```
+
 ##⚙️ Requisitos de ejecución
 Antes de ejecutar el proyecto, asegúrate de tener instalado lo siguiente:
 
@@ -66,6 +65,7 @@ Puedes verificar si tienes Java y Maven instalados ejecutando:
 java -version
 mvn -v
 ```
+
 ##🚀 Instalación y ejecución
 Sigue estos pasos para correr el proyecto localmente:
 1. Clona el repositorio:
@@ -80,11 +80,13 @@ Sigue estos pasos para correr el proyecto localmente:
    ```plaintext
    mvn clean javafx:run
    ```
+   
 ##🎮 Uso
 - Agregar: Oprime el primer boton para agregar peliculas.
 - Asignar: Asocia películas a salas en horarios disponibles.
 - Ventas: Elige una función, selecciona asientos y finaliza la compra con una factura.
 - El sistema aplica restricciones como evitar funciones duplicadas o que una sala incompatible tenga una película no 3D.
+
 ##📄 Licencia
 ```plaintext
 Free
